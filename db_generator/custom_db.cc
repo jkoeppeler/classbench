@@ -537,6 +537,17 @@ int read_scale(FILE *fp){
   return scale;
 }
 
+int is_unroutable(unsigned int addr)
+{
+    unsigned int b3 = (addr & 0xff000000) >> 24;
+    unsigned int b2 = (addr & 0x00ff0000) >> 16;
+    if (b3 >= 224 || b3 == 10 || b3 == 127) {
+        return 1;
+    } else if ((b3 == 172 && b2 == 16) || (b3 == 192 && b2 == 168))
+        return 1;
+    return 0;
+}
+
 int remove_redundant_filters(int num_filters, FilterList* filters, filter* temp_filters){
   int filter_cnt = 0;
   int redundant, nest, flag;
@@ -579,6 +590,12 @@ int remove_redundant_filters(int num_filters, FilterList* filters, filter* temp_
     if (TupleListPtr == NULL) {fprintf(stderr,"ERROR: TupleListPtrArray contains a null pointer."); exit(1);}
     dlist_item* findex;
     for (findex = (*TupleListPtr)(1); findex != NULL; findex = findex->next){
+        if (is_unroutable(temp_filters[findex->key].sa))
+            continue;
+
+        if (is_unroutable(temp_filters[findex->key].da))
+            continue;
+        
       (*filters)&=temp_filters[findex->key];
     }
   }
