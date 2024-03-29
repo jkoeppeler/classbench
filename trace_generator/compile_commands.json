@@ -1,0 +1,79 @@
+[
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "trace_generator.cc"
+  ],
+  "file": "trace_generator.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "db_parser.cc"
+  ],
+  "file": "db_parser.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "trace_tools.cc"
+  ],
+  "file": "trace_tools.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "hlist.cc"
+  ],
+  "file": "hlist.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "dlist.cc"
+  ],
+  "file": "dlist.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "flist.cc"
+  ],
+  "file": "flist.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/trace_generator",
+  "arguments": [
+   "g++",
+   "-g",
+   "-pg",
+   "-c",
+   "FilterList.cc"
+  ],
+  "file": "FilterList.cc"
+ }
+]

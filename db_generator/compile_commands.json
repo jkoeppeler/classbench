@@ -1,0 +1,142 @@
+[
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "sbintree.cc"
+  ],
+  "file": "sbintree.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "db_generator.cc"
+  ],
+  "file": "db_generator.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "random_db.cc"
+  ],
+  "file": "random_db.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "dlist.cc"
+  ],
+  "file": "dlist.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "ProtList.cc"
+  ],
+  "file": "ProtList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "FlagList.cc"
+  ],
+  "file": "FlagList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "ExtraList.cc"
+  ],
+  "file": "ExtraList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "PortList.cc"
+  ],
+  "file": "PortList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "PrefixList.cc"
+  ],
+  "file": "PrefixList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "dbintree.cc"
+  ],
+  "file": "dbintree.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "redundant_filter_check.cc"
+  ],
+  "file": "redundant_filter_check.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "FilterList.cc"
+  ],
+  "file": "FilterList.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "TupleBST.cc"
+  ],
+  "file": "TupleBST.cc"
+ },
+ {
+  "directory": "/home/acat/hub/projects/classbench/db_generator",
+  "arguments": [
+   "g++",
+   "-O2",
+   "-c",
+   "custom_db.cc"
+  ],
+  "file": "custom_db.cc"
+ }
+]
